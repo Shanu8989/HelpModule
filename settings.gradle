@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "HelpModule"
-include ':coreHelpModule'
+include ':dataHelpModule'
