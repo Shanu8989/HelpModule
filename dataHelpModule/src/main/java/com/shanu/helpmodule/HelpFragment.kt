@@ -36,7 +36,7 @@ class HelpFragment : Fragment() {
                 /*val intent = Intent(activity, LoginActivity::class.java)
                 startActivity(intent)
                 activity?.finish()*/
-                val intent = Intent(
+                Intent(
                     requireActivity(),
                     Class.forName("com.shanu.nmsuperapp.presentation.activity.LoginActivity")
                 ).apply {
